@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Rutio
+
+  Created by Kateřina Černá on 22.03.2021.
+  
+*/
+/*
+"Title" = "Plánování trasy"
+"Destination" = "Cíl"
+"Start" = "Start"
+"Date" = "Datum"
+"Time" = "Čas"
+"Choose_transport" = "Vybrat dopravní prostředek"
+"Search_history" = "Historie"

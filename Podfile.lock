@@ -1,0 +1,25 @@
+PODS:
+  - GoogleMaps-m1 (5.0.0):
+    - GoogleMaps-m1/Maps (= 5.0.0)
+  - GoogleMaps-m1/Base (5.0.0)
+  - GoogleMaps-m1/Maps (5.0.0):
+    - GoogleMaps-m1/Base
+
+DEPENDENCIES:
+  - GoogleMaps-m1 (from `https://github.com/khramtsoff/GoogleMaps-m1`)
+
+EXTERNAL SOURCES:
+  GoogleMaps-m1:
+    :git: https://github.com/khramtsoff/GoogleMaps-m1
+
+CHECKOUT OPTIONS:
+  GoogleMaps-m1:
+    :commit: 759e812a47f21dcb02dcbdeb4271f943fd0a123e
+    :git: https://github.com/khramtsoff/GoogleMaps-m1
+
+SPEC CHECKSUMS:
+  GoogleMaps-m1: f57bd7eda6fbf163e5ca60e31c2abf665456b1b0
+
+PODFILE CHECKSUM: 320759b680b5d39edb69c13f414f36ee98f62cda
+
+COCOAPODS: 1.11.2

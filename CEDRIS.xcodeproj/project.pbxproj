@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22381D40E0D6686AA7A996E0 /* Pods_CEDRIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33695F9E01356FD4AFF2BA0B /* Pods_CEDRIS.framework */; };
+		2712EB3E6171812E8113AE48 /* Pods_CEDRISTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABF540087A3732A228FD01E /* Pods_CEDRISTests.framework */; };
+		461E742325656AB1007240B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461E742225656AB1007240B4 /* AppDelegate.swift */; };
+		461E742525656AB1007240B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461E742425656AB1007240B4 /* SceneDelegate.swift */; };
+		461E742725656AB1007240B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461E742625656AB1007240B4 /* ViewController.swift */; };
+		461E742A25656AB1007240B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461E742825656AB1007240B4 /* Main.storyboard */; };
+		461E742D25656AB1007240B4 /* Rutio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 461E742B25656AB1007240B4 /* Rutio.xcdatamodeld */; };
+		461E742F25656AB5007240B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461E742E25656AB5007240B4 /* Assets.xcassets */; };
+		461E743225656AB5007240B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461E743025656AB5007240B4 /* LaunchScreen.storyboard */; };
+		461E74622565AE70007240B4 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461E74612565AE70007240B4 /* MapController.swift */; };
+		4625D25C2618F7D40048ED99 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625D25B2618F7D30048ED99 /* AnnotationView.swift */; };
+		4625D2612618F7EE0048ED99 /* ClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625D2602618F7EE0048ED99 /* ClusterAnnotationView.swift */; };
+		463682DA2609118D00DF6373 /* Localize.strings in Resources */ = {isa = PBXBuildFile; fileRef = 463682DC2609118D00DF6373 /* Localize.strings */; };
+		4661560D25CAFC430047E232 /* HistoryManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661560C25CAFC430047E232 /* HistoryManagerDelegate.swift */; };
+		4663C5EF263B07D400C3A329 /* GeneratedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663C5EE263B07D400C3A329 /* GeneratedModel.swift */; };
+		46674869259A3FB200F85192 /* FavouriteTrasManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46674868259A3FB200F85192 /* FavouriteTrasManagerDelegate.swift */; };
+		467C5CCC25D04E7A004DBC86 /* CustomePinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C5CCB25D04E7A004DBC86 /* CustomePinAnnotation.swift */; };
+		4683B0A2256C5D45007C9840 /* Responce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4683B0A1256C5D45007C9840 /* Responce.swift */; };
+		46A1179425E2B6B7002AB6EB /* StopResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1179325E2B6B7002AB6EB /* StopResponce.swift */; };
+		5652B28DA1174F3AC9D6A00D /* Pods_CEDRIS_CEDRISUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AC45DC963C1B6C735D05FE /* Pods_CEDRIS_CEDRISUITests.framework */; };
+		6E1E265B273969C000C67F28 /* NonClusteringMKMarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E265A273969C000C67F28 /* NonClusteringMKMarkerAnnotationView.swift */; };
+		6E36B01E27440490008F4914 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E36B01D27440490008F4914 /* style.json */; };
+		6E36B020274415E4008F4914 /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E36B01F274415E4008F4914 /* AlertsViewController.swift */; };
+		6E36B02227441CC0008F4914 /* styleDark.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E36B02127441CC0008F4914 /* styleDark.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461E743925656AB6007240B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461E741725656AB1007240B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461E741E25656AB1007240B4;
+			remoteInfo = Rutio;
+		};
+		461E744425656AB6007240B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461E741725656AB1007240B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461E741E25656AB1007240B4;
+			remoteInfo = Rutio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AD692ACC31AD4C444E45F0 /* Pods-CEDRISTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEDRISTests.debug.xcconfig"; path = "Target Support Files/Pods-CEDRISTests/Pods-CEDRISTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D26C7188C80C854FBC6FE07 /* Pods-CEDRISTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEDRISTests.release.xcconfig"; path = "Target Support Files/Pods-CEDRISTests/Pods-CEDRISTests.release.xcconfig"; sourceTree = "<group>"; };
+		33695F9E01356FD4AFF2BA0B /* Pods_CEDRIS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEDRIS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		461E741F25656AB1007240B4 /* CEDRIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEDRIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461E742225656AB1007240B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		461E742425656AB1007240B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		461E742625656AB1007240B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		461E742925656AB1007240B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		461E742C25656AB1007240B4 /* Rutio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rutio.xcdatamodel; sourceTree = "<group>"; };
+		461E742E25656AB5007240B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461E743125656AB5007240B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		461E743325656AB5007240B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461E743825656AB6007240B4 /* CEDRISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEDRISTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461E744325656AB6007240B4 /* CEDRISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEDRISUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461E74612565AE70007240B4 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		4625D25B2618F7D30048ED99 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		4625D2602618F7EE0048ED99 /* ClusterAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAnnotationView.swift; sourceTree = "<group>"; };
+		463682CA260910AC00DF6373 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
+		463682CB260910B600DF6373 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Main.strings; sourceTree = "<group>"; };
+		463682DB2609118D00DF6373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localize.strings; sourceTree = "<group>"; };
+		463682E02609119300DF6373 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localize.strings; sourceTree = "<group>"; };
+		463682E12609119400DF6373 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localize.strings; sourceTree = "<group>"; };
+		463682E62609140C00DF6373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4661560C25CAFC430047E232 /* HistoryManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManagerDelegate.swift; sourceTree = "<group>"; };
+		4663C5EE263B07D400C3A329 /* GeneratedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedModel.swift; sourceTree = "<group>"; };
+		46674868259A3FB200F85192 /* FavouriteTrasManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTrasManagerDelegate.swift; sourceTree = "<group>"; };
+		467C5CCB25D04E7A004DBC86 /* CustomePinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomePinAnnotation.swift; sourceTree = "<group>"; };
+		4683B0A1256C5D45007C9840 /* Responce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responce.swift; sourceTree = "<group>"; };
+		46A1179325E2B6B7002AB6EB /* StopResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopResponce.swift; sourceTree = "<group>"; };
+		5ABF540087A3732A228FD01E /* Pods_CEDRISTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEDRISTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AC45DC963C1B6C735D05FE /* Pods_CEDRIS_CEDRISUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEDRIS_CEDRISUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1E265A273969C000C67F28 /* NonClusteringMKMarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonClusteringMKMarkerAnnotationView.swift; sourceTree = "<group>"; };
+		6E36B01D27440490008F4914 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		6E36B01F274415E4008F4914 /* AlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertsViewController.swift; path = /Users/tomasskala/Documents/Development/CEDRIS/CEDRIS/AlertsViewController.swift; sourceTree = "<absolute>"; };
+		6E36B02127441CC0008F4914 /* styleDark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = styleDark.json; sourceTree = "<group>"; };
+		73FDC6A897B13CB6A5B09C53 /* Pods-CEDRIS-CEDRISUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEDRIS-CEDRISUITests.debug.xcconfig"; path = "Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A720FF51CE7491FC513D8624 /* Pods-Rutio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rutio.debug.xcconfig"; path = "Target Support Files/Pods-Rutio/Pods-Rutio.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C516D885C8513D90D911BD /* Pods-CEDRIS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEDRIS.release.xcconfig"; path = "Target Support Files/Pods-CEDRIS/Pods-CEDRIS.release.xcconfig"; sourceTree = "<group>"; };
+		AD0D4AAD3AD60A8876E6F11C /* Pods-Rutio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rutio.release.xcconfig"; path = "Target Support Files/Pods-Rutio/Pods-Rutio.release.xcconfig"; sourceTree = "<group>"; };
+		C0118422FB7AD3673CECF5A5 /* Pods-CEDRIS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEDRIS.debug.xcconfig"; path = "Target Support Files/Pods-CEDRIS/Pods-CEDRIS.debug.xcconfig"; sourceTree = "<group>"; };
+		E586A34BE8CB4F07E09AD31A /* Pods-CEDRIS-CEDRISUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEDRIS-CEDRISUITests.release.xcconfig"; path = "Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461E741C25656AB1007240B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22381D40E0D6686AA7A996E0 /* Pods_CEDRIS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461E743525656AB6007240B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2712EB3E6171812E8113AE48 /* Pods_CEDRISTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461E744025656AB6007240B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5652B28DA1174F3AC9D6A00D /* Pods_CEDRIS_CEDRISUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461E741625656AB1007240B4 = {
+			isa = PBXGroup;
+			children = (
+				461E742125656AB1007240B4 /* CEDRIS */,
+				461E742025656AB1007240B4 /* Products */,
+				6940FB35A4B724C62B4A12A3 /* Pods */,
+				BEC8A3D7686AA848A99D26E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		461E742025656AB1007240B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461E741F25656AB1007240B4 /* CEDRIS.app */,
+				461E743825656AB6007240B4 /* CEDRISTests.xctest */,
+				461E744325656AB6007240B4 /* CEDRISUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461E742125656AB1007240B4 /* CEDRIS */ = {
+			isa = PBXGroup;
+			children = (
+				463682D42609116A00DF6373 /* Localizable */,
+				46D395C225F6721200C083A8 /* ManagerDelegate */,
+				4683B086256C59CA007C9840 /* Database */,
+				461E74582565AE2B007240B4 /* Activity */,
+				461E742225656AB1007240B4 /* AppDelegate.swift */,
+				6E36B01D27440490008F4914 /* style.json */,
+				6E36B02127441CC0008F4914 /* styleDark.json */,
+				461E742425656AB1007240B4 /* SceneDelegate.swift */,
+				461E742825656AB1007240B4 /* Main.storyboard */,
+				461E742625656AB1007240B4 /* ViewController.swift */,
+				6E36B01F274415E4008F4914 /* AlertsViewController.swift */,
+				461E742E25656AB5007240B4 /* Assets.xcassets */,
+				461E743025656AB5007240B4 /* LaunchScreen.storyboard */,
+				461E743325656AB5007240B4 /* Info.plist */,
+				461E742B25656AB1007240B4 /* Rutio.xcdatamodeld */,
+			);
+			path = CEDRIS;
+			sourceTree = "<group>";
+		};
+		461E74582565AE2B007240B4 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				463682F9260A0D5D00DF6373 /* Map */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		463682D42609116A00DF6373 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				463682DC2609118D00DF6373 /* Localize.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		463682F9260A0D5D00DF6373 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				461E74612565AE70007240B4 /* MapController.swift */,
+				6E1E265A273969C000C67F28 /* NonClusteringMKMarkerAnnotationView.swift */,
+				467C5CCB25D04E7A004DBC86 /* CustomePinAnnotation.swift */,
+				4625D25B2618F7D30048ED99 /* AnnotationView.swift */,
+				4625D2602618F7EE0048ED99 /* ClusterAnnotationView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		4683B086256C59CA007C9840 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4683B0A1256C5D45007C9840 /* Responce.swift */,
+				46A1179325E2B6B7002AB6EB /* StopResponce.swift */,
+				4663C5EE263B07D400C3A329 /* GeneratedModel.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		46D395C225F6721200C083A8 /* ManagerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4661560C25CAFC430047E232 /* HistoryManagerDelegate.swift */,
+				46674868259A3FB200F85192 /* FavouriteTrasManagerDelegate.swift */,
+			);
+			path = ManagerDelegate;
+			sourceTree = "<group>";
+		};
+		6940FB35A4B724C62B4A12A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A720FF51CE7491FC513D8624 /* Pods-Rutio.debug.xcconfig */,
+				AD0D4AAD3AD60A8876E6F11C /* Pods-Rutio.release.xcconfig */,
+				C0118422FB7AD3673CECF5A5 /* Pods-CEDRIS.debug.xcconfig */,
+				A7C516D885C8513D90D911BD /* Pods-CEDRIS.release.xcconfig */,
+				73FDC6A897B13CB6A5B09C53 /* Pods-CEDRIS-CEDRISUITests.debug.xcconfig */,
+				E586A34BE8CB4F07E09AD31A /* Pods-CEDRIS-CEDRISUITests.release.xcconfig */,
+				19AD692ACC31AD4C444E45F0 /* Pods-CEDRISTests.debug.xcconfig */,
+				2D26C7188C80C854FBC6FE07 /* Pods-CEDRISTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEC8A3D7686AA848A99D26E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33695F9E01356FD4AFF2BA0B /* Pods_CEDRIS.framework */,
+				66AC45DC963C1B6C735D05FE /* Pods_CEDRIS_CEDRISUITests.framework */,
+				5ABF540087A3732A228FD01E /* Pods_CEDRISTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461E741E25656AB1007240B4 /* CEDRIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461E744C25656AB6007240B4 /* Build configuration list for PBXNativeTarget "CEDRIS" */;
+			buildPhases = (
+				58B68E04BB4B12D841DE835A /* [CP] Check Pods Manifest.lock */,
+				461E741B25656AB1007240B4 /* Sources */,
+				461E741C25656AB1007240B4 /* Frameworks */,
+				461E741D25656AB1007240B4 /* Resources */,
+				E4600A36BF2BC829F224D966 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEDRIS;
+			productName = Rutio;
+			productReference = 461E741F25656AB1007240B4 /* CEDRIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461E743725656AB6007240B4 /* CEDRISTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461E744F25656AB6007240B4 /* Build configuration list for PBXNativeTarget "CEDRISTests" */;
+			buildPhases = (
+				464FA20ACA26BD36DE46FE19 /* [CP] Check Pods Manifest.lock */,
+				461E743425656AB6007240B4 /* Sources */,
+				461E743525656AB6007240B4 /* Frameworks */,
+				461E743625656AB6007240B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461E743A25656AB6007240B4 /* PBXTargetDependency */,
+			);
+			name = CEDRISTests;
+			productName = RutioTests;
+			productReference = 461E743825656AB6007240B4 /* CEDRISTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		461E744225656AB6007240B4 /* CEDRISUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461E745225656AB6007240B4 /* Build configuration list for PBXNativeTarget "CEDRISUITests" */;
+			buildPhases = (
+				FA77B63DD082D302E6364D03 /* [CP] Check Pods Manifest.lock */,
+				461E743F25656AB6007240B4 /* Sources */,
+				461E744025656AB6007240B4 /* Frameworks */,
+				461E744125656AB6007240B4 /* Resources */,
+				262BF221504A875F3ADD83C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461E744525656AB6007240B4 /* PBXTargetDependency */,
+			);
+			name = CEDRISUITests;
+			productName = RutioUITests;
+			productReference = 461E744325656AB6007240B4 /* CEDRISUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461E741725656AB1007240B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					461E741E25656AB1007240B4 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					461E743725656AB6007240B4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 461E741E25656AB1007240B4;
+					};
+					461E744225656AB6007240B4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 461E741E25656AB1007240B4;
+					};
+				};
+			};
+			buildConfigurationList = 461E741A25656AB1007240B4 /* Build configuration list for PBXProject "CEDRIS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				cs,
+				hr,
+			);
+			mainGroup = 461E741625656AB1007240B4;
+			productRefGroup = 461E742025656AB1007240B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461E741E25656AB1007240B4 /* CEDRIS */,
+				461E743725656AB6007240B4 /* CEDRISTests */,
+				461E744225656AB6007240B4 /* CEDRISUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461E741D25656AB1007240B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461E743225656AB5007240B4 /* LaunchScreen.storyboard in Resources */,
+				6E36B02227441CC0008F4914 /* styleDark.json in Resources */,
+				461E742F25656AB5007240B4 /* Assets.xcassets in Resources */,
+				461E742A25656AB1007240B4 /* Main.storyboard in Resources */,
+				6E36B01E27440490008F4914 /* style.json in Resources */,
+				463682DA2609118D00DF6373 /* Localize.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461E743625656AB6007240B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461E744125656AB6007240B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262BF221504A875F3ADD83C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		464FA20ACA26BD36DE46FE19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CEDRISTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B68E04BB4B12D841DE835A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CEDRIS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4600A36BF2BC829F224D966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CEDRIS/Pods-CEDRIS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CEDRIS/Pods-CEDRIS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CEDRIS/Pods-CEDRIS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA77B63DD082D302E6364D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CEDRIS-CEDRISUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461E741B25656AB1007240B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461E742725656AB1007240B4 /* ViewController.swift in Sources */,
+				461E742D25656AB1007240B4 /* Rutio.xcdatamodeld in Sources */,
+				461E742325656AB1007240B4 /* AppDelegate.swift in Sources */,
+				4663C5EF263B07D400C3A329 /* GeneratedModel.swift in Sources */,
+				461E74622565AE70007240B4 /* MapController.swift in Sources */,
+				46674869259A3FB200F85192 /* FavouriteTrasManagerDelegate.swift in Sources */,
+				467C5CCC25D04E7A004DBC86 /* CustomePinAnnotation.swift in Sources */,
+				6E36B020274415E4008F4914 /* AlertsViewController.swift in Sources */,
+				4625D2612618F7EE0048ED99 /* ClusterAnnotationView.swift in Sources */,
+				4625D25C2618F7D40048ED99 /* AnnotationView.swift in Sources */,
+				6E1E265B273969C000C67F28 /* NonClusteringMKMarkerAnnotationView.swift in Sources */,
+				461E742525656AB1007240B4 /* SceneDelegate.swift in Sources */,
+				46A1179425E2B6B7002AB6EB /* StopResponce.swift in Sources */,
+				4683B0A2256C5D45007C9840 /* Responce.swift in Sources */,
+				4661560D25CAFC430047E232 /* HistoryManagerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461E743425656AB6007240B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461E743F25656AB6007240B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461E743A25656AB6007240B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461E741E25656AB1007240B4 /* CEDRIS */;
+			targetProxy = 461E743925656AB6007240B4 /* PBXContainerItemProxy */;
+		};
+		461E744525656AB6007240B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461E741E25656AB1007240B4 /* CEDRIS */;
+			targetProxy = 461E744425656AB6007240B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		461E742825656AB1007240B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461E742925656AB1007240B4 /* Base */,
+				463682CA260910AC00DF6373 /* cs */,
+				463682CB260910B600DF6373 /* hr */,
+				463682E62609140C00DF6373 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		461E743025656AB5007240B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461E743125656AB5007240B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		463682DC2609118D00DF6373 /* Localize.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463682DB2609118D00DF6373 /* en */,
+				463682E02609119300DF6373 /* hr */,
+				463682E12609119400DF6373 /* cs */,
+			);
+			name = Localize.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		461E744A25656AB6007240B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		461E744B25656AB6007240B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461E744D25656AB6007240B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0118422FB7AD3673CECF5A5 /* Pods-CEDRIS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U97F877N9;
+				INFOPLIST_FILE = "$(SRCROOT)/CEDRIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.webrock.cedris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461E744E25656AB6007240B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C516D885C8513D90D911BD /* Pods-CEDRIS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U97F877N9;
+				INFOPLIST_FILE = "$(SRCROOT)/CEDRIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.webrock.cedris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		461E745025656AB6007240B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AD692ACC31AD4C444E45F0 /* Pods-CEDRISTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RutioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SeeJay.RutioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDRIS.app/CEDRIS";
+			};
+			name = Debug;
+		};
+		461E745125656AB6007240B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D26C7188C80C854FBC6FE07 /* Pods-CEDRISTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RutioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SeeJay.RutioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDRIS.app/CEDRIS";
+			};
+			name = Release;
+		};
+		461E745325656AB6007240B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FDC6A897B13CB6A5B09C53 /* Pods-CEDRIS-CEDRISUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RutioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SeeJay.RutioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rutio;
+			};
+			name = Debug;
+		};
+		461E745425656AB6007240B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E586A34BE8CB4F07E09AD31A /* Pods-CEDRIS-CEDRISUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RutioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SeeJay.RutioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rutio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461E741A25656AB1007240B4 /* Build configuration list for PBXProject "CEDRIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461E744A25656AB6007240B4 /* Debug */,
+				461E744B25656AB6007240B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461E744C25656AB6007240B4 /* Build configuration list for PBXNativeTarget "CEDRIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461E744D25656AB6007240B4 /* Debug */,
+				461E744E25656AB6007240B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461E744F25656AB6007240B4 /* Build configuration list for PBXNativeTarget "CEDRISTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461E745025656AB6007240B4 /* Debug */,
+				461E745125656AB6007240B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461E745225656AB6007240B4 /* Build configuration list for PBXNativeTarget "CEDRISUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461E745325656AB6007240B4 /* Debug */,
+				461E745425656AB6007240B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		461E742B25656AB1007240B4 /* Rutio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				461E742C25656AB1007240B4 /* Rutio.xcdatamodel */,
+			);
+			currentVersion = 461E742C25656AB1007240B4 /* Rutio.xcdatamodel */;
+			path = Rutio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 461E741725656AB1007240B4 /* Project object */;
+}

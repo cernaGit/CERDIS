@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Grf-ws-ps1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sledování provozu-->
+        <scene sceneID="CwU-wo-BGy">
+            <objects>
+                <viewController id="Grf-ws-ps1" customClass="MapController" customModule="CEDRIS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MhY-Ac-H8s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwA-Lt-eHo">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sIn-ZH-5ek"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pwA-Lt-eHo" firstAttribute="top" secondItem="MhY-Ac-H8s" secondAttribute="top" id="1H5-cU-OuU"/>
+                            <constraint firstItem="pwA-Lt-eHo" firstAttribute="trailing" secondItem="sIn-ZH-5ek" secondAttribute="trailing" id="EZL-0m-2b6"/>
+                            <constraint firstItem="sIn-ZH-5ek" firstAttribute="trailing" secondItem="pwA-Lt-eHo" secondAttribute="trailing" id="Gzt-0F-9Dl"/>
+                            <constraint firstItem="sIn-ZH-5ek" firstAttribute="bottom" secondItem="pwA-Lt-eHo" secondAttribute="bottom" id="cRT-3w-U9W"/>
+                            <constraint firstItem="pwA-Lt-eHo" firstAttribute="leading" secondItem="sIn-ZH-5ek" secondAttribute="leading" id="dZi-fZ-Y7R"/>
+                            <constraint firstItem="pwA-Lt-eHo" firstAttribute="top" secondItem="sIn-ZH-5ek" secondAttribute="top" id="gDY-5H-GLf"/>
+                            <constraint firstAttribute="bottom" secondItem="pwA-Lt-eHo" secondAttribute="bottom" id="hkL-5c-1js"/>
+                            <constraint firstItem="pwA-Lt-eHo" firstAttribute="leading" secondItem="sIn-ZH-5ek" secondAttribute="leading" id="psk-sk-qaZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mapa" id="m6j-9I-CgN">
+                        <imageReference key="image" image="bus.fill" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Sledování provozu" largeTitleDisplayMode="never" id="8jM-qt-bSa">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="search" id="Mg2-pb-pm3">
+                            <color key="tintColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapViewContainer" destination="pwA-Lt-eHo" id="h64-2m-xFS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etT-Wp-rrI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2228.985507246377" y="-35.491071428571423"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ewy-uP-WPl">
+            <objects>
+                <navigationController id="b2t-RI-CQv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="0dv-YQ-psq"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fqd-y3-o9b">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YQa-Me-ioi">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0d-J8-NXd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1451" y="-35"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h4H-dr-qcx">
+            <objects>
+                <tabBarController id="ooa-6y-ejX" customClass="ViewController" customModule="CEDRIS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ILz-Ro-isJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="b2t-RI-CQv" kind="relationship" relationship="viewControllers" id="rRd-31-NDY"/>
+                        <segue destination="fKB-r9-Kgo" kind="relationship" relationship="viewControllers" id="XzD-YM-moU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Se-YZ-IXK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="655" y="-35"/>
+        </scene>
+        <!--Mimořádné události-->
+        <scene sceneID="4in-j8-vwj">
+            <objects>
+                <viewController id="uP5-ze-Lmk" customClass="AlertsViewController" customModule="CEDRIS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TSz-ma-V3E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" allowsLinkPreview="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHc-W3-i7c">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                                <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO" allowsPictureInPictureMediaPlayback="NO">
+                                    <dataDetectorTypes key="dataDetectorTypes" none="YES"/>
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uVG-vz-LKn"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cHc-W3-i7c" firstAttribute="leading" secondItem="uVG-vz-LKn" secondAttribute="leading" id="TP9-3M-OOb"/>
+                            <constraint firstItem="uVG-vz-LKn" firstAttribute="bottom" secondItem="cHc-W3-i7c" secondAttribute="bottom" id="h1b-Ht-nWJ"/>
+                            <constraint firstItem="cHc-W3-i7c" firstAttribute="top" secondItem="uVG-vz-LKn" secondAttribute="top" id="k3n-fu-mWK"/>
+                            <constraint firstItem="uVG-vz-LKn" firstAttribute="trailing" secondItem="cHc-W3-i7c" secondAttribute="trailing" id="t3d-Qn-rKV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mimořádnosti" id="FeZ-io-Odh">
+                        <imageReference key="image" image="exclamationmark.triangle" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Mimořádné události" largeTitleDisplayMode="never" id="WL9-V8-F9l"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="webView" destination="cHc-W3-i7c" id="v0a-XF-InQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YYS-Uz-zdh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2229" y="650"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="fyc-8M-uk9">
+            <objects>
+                <navigationController id="fKB-r9-Kgo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="YjR-zB-aHg"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cFv-xS-Ie8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mMa-ke-6kL">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="uP5-ze-Lmk" kind="relationship" relationship="rootViewController" id="yQJ-4z-0O9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NEd-o1-6to" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1451" y="650"/>
+        </scene>
+        <!--Sledování provozu-->
+        <scene sceneID="MH1-4l-ndj">
+            <objects>
+                <viewController id="nvt-nf-rDN" customClass="MapController" customModule="CEDRIS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Djl-Hx-kqB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2I-jK-JUJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="o6D-lI-46I"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e2I-jK-JUJ" firstAttribute="top" secondItem="o6D-lI-46I" secondAttribute="top" id="CQt-MI-j1f"/>
+                            <constraint firstItem="o6D-lI-46I" firstAttribute="bottom" secondItem="e2I-jK-JUJ" secondAttribute="bottom" id="MJk-gO-EMp"/>
+                            <constraint firstItem="e2I-jK-JUJ" firstAttribute="leading" secondItem="o6D-lI-46I" secondAttribute="leading" id="V9v-kR-yih"/>
+                            <constraint firstItem="o6D-lI-46I" firstAttribute="trailing" secondItem="e2I-jK-JUJ" secondAttribute="trailing" id="c0x-cX-hxB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mapa" id="xYe-OV-Byg">
+                        <imageReference key="image" image="bus.fill" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Sledování provozu" largeTitleDisplayMode="never" id="LWb-zi-ATG">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="search" id="ZzP-7c-6DF">
+                            <color key="tintColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapViewContainer" destination="e2I-jK-JUJ" id="aFq-6h-uX4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vOf-6T-fgQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2229" y="-725"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bus.fill" catalog="system" width="128" height="122"/>
+        <image name="exclamationmark.triangle" catalog="system" width="128" height="112"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

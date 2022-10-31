@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B9B23FF238BCB0B6089FB455D0F09828 /* GoogleMaps-m1 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A185140C3785787080DC904D7FF068E8 /* Build configuration list for PBXAggregateTarget "GoogleMaps-m1" */;
+			buildPhases = (
+				4D70905B4CBE704B1CD75B936F2A0BF2 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "GoogleMaps-m1";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		196760B3F1C86997F38B49579EF20AC3 /* Pods-CEDRIS-CEDRISUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED71084ABB70EFA7581A83E47C1267 /* Pods-CEDRIS-CEDRISUITests-dummy.m */; };
+		2C0BDAEE883C6DCD9C5B723E851A3CD7 /* Pods-CEDRISTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76115A0C52F7F65E8C67B699CD2BBB6 /* Pods-CEDRISTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		316A6C3779E2BD27D6380F22D3B579AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		331FFEF3473ACF650E1108745DA2C961 /* Pods-CEDRIS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6448B84F5547854182940997CC19F01A /* Pods-CEDRIS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F6C9C8BD0D184DE291C07A0FF75283 /* Pods-CEDRISTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC42983E5E8E397B0478FEAE87CDE /* Pods-CEDRISTests-dummy.m */; };
+		8295EA714287D76C5537E9D0237BF81A /* Pods-CEDRIS-CEDRISUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4AD05BD2D431A2224654AAB82FD78E /* Pods-CEDRIS-CEDRISUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AEABF459FD7FBE44717B4ADC7B38DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E216CADC0BCEEF44EB02AE4C42153F6C /* Pods-CEDRIS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 034D84D23EB2FDC1352BA7221FB9AA92 /* Pods-CEDRIS-dummy.m */; };
+		E30E849C28EEF5BDD9A2297E0506AB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		350E4AC163594EE940749F21D3CB7C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B23FF238BCB0B6089FB455D0F09828;
+			remoteInfo = "GoogleMaps-m1";
+		};
+		449FBF6349837F759748476AF14D98B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B23FF238BCB0B6089FB455D0F09828;
+			remoteInfo = "GoogleMaps-m1";
+		};
+		65CB3A0B1087F28351376442C70B65F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E78FD2CF1A9262EFC2456F61BA7B6A2;
+			remoteInfo = "Pods-CEDRIS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034D84D23EB2FDC1352BA7221FB9AA92 /* Pods-CEDRIS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEDRIS-dummy.m"; sourceTree = "<group>"; };
+		03DF1EF313D5ED37E367936ECF006178 /* Pods-CEDRIS-CEDRISUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEDRIS-CEDRISUITests.modulemap"; sourceTree = "<group>"; };
+		06952EF577212691BD930069EFDBEF6F /* Pods-CEDRIS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEDRIS-Info.plist"; sourceTree = "<group>"; };
+		088C57F6513F8AA6FA71950D452DB3B0 /* Pods-CEDRIS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEDRIS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C6BC42983E5E8E397B0478FEAE87CDE /* Pods-CEDRISTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEDRISTests-dummy.m"; sourceTree = "<group>"; };
+		1A7DD5B8921504FFD1EA81AF1EF1CE98 /* Pods-CEDRISTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEDRISTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E1CCF1DA7C3A376922EDE182BCA3772 /* Pods-CEDRISTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEDRISTests-Info.plist"; sourceTree = "<group>"; };
+		26551EA17CE4C420C2FBD06A8D3277AB /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleMaps.xcframework; sourceTree = "<group>"; };
+		2799F887C6F340B108722564D69176CD /* Pods-CEDRIS-CEDRISUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEDRIS-CEDRISUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A1E9FDE490A9497DBC29E5DC508417D /* Pods-CEDRIS-CEDRISUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CEDRIS-CEDRISUITests"; path = Pods_CEDRIS_CEDRISUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318F7AF7E6F4A2C39F0644A5EE178BCA /* Pods-CEDRISTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEDRISTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A52CF36B882333A4189E6523FE187B9 /* Pods-CEDRISTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEDRISTests.release.xcconfig"; sourceTree = "<group>"; };
+		463FF86DC858477CD8F07382CFA03FA4 /* Pods-CEDRIS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEDRIS-resources.sh"; sourceTree = "<group>"; };
+		4DED71084ABB70EFA7581A83E47C1267 /* Pods-CEDRIS-CEDRISUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEDRIS-CEDRISUITests-dummy.m"; sourceTree = "<group>"; };
+		6086CE9EBF52320C4D4EDD8C16C7B165 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		6448B84F5547854182940997CC19F01A /* Pods-CEDRIS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEDRIS-umbrella.h"; sourceTree = "<group>"; };
+		69C38060ED6641852CAC7E5426C68FA4 /* Pods-CEDRIS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEDRIS-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D4AD05BD2D431A2224654AAB82FD78E /* Pods-CEDRIS-CEDRISUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEDRIS-CEDRISUITests-umbrella.h"; sourceTree = "<group>"; };
+		70A3EB5CEE6BE4E3124F0E23119BD74D /* GoogleMaps-m1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleMaps-m1.release.xcconfig"; sourceTree = "<group>"; };
+		71675E9CFE3B91222DF6D7675E4DE7DE /* Pods-CEDRIS-CEDRISUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEDRIS-CEDRISUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74EDC53788F5786CAD0A325E7BB6DE4C /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		86437072FBD24EC8EEBA086D3E4649F6 /* Pods-CEDRIS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEDRIS.modulemap"; sourceTree = "<group>"; };
+		90A334F9E1E961F9787FFA0EF95CFEF9 /* Pods-CEDRIS-CEDRISUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEDRIS-CEDRISUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90C8BF8BCE50D5B2F483C44FE85840FB /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "GoogleMaps.xcframework/ios-arm64_armv7/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		9AF51E715DEB88A8BDBCF78ECA10FF46 /* Pods-CEDRIS-CEDRISUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEDRIS-CEDRISUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2AAB696355FEAFCC212873F665265F5 /* GoogleMaps-m1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleMaps-m1.debug.xcconfig"; sourceTree = "<group>"; };
+		AC36F7EDD42DDB4E35883B7F66EA2EEB /* Pods-CEDRISTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CEDRISTests"; path = Pods_CEDRISTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14E0A4E1AA2CB72E3D3BF345712195C /* Pods-CEDRISTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEDRISTests.modulemap"; sourceTree = "<group>"; };
+		D0C8C76B41DAF7C278C3FA39E10242D2 /* Pods-CEDRIS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEDRIS.release.xcconfig"; sourceTree = "<group>"; };
+		D3EEF1CEDBEF2DEF50CDC1B860362EED /* Pods-CEDRIS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEDRIS.debug.xcconfig"; sourceTree = "<group>"; };
+		D5FF6B3893D21F991B89908721972602 /* Pods-CEDRIS-CEDRISUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEDRIS-CEDRISUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6FA7EEF071CD4F77FFA88F5836057D4 /* Pods-CEDRISTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEDRISTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E10E5D1705C67C99D3B8890E3102B271 /* Pods-CEDRIS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CEDRIS"; path = Pods_CEDRIS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76115A0C52F7F65E8C67B699CD2BBB6 /* Pods-CEDRISTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEDRISTests-umbrella.h"; sourceTree = "<group>"; };
+		E767A3849168929683B259B0F7560FFF /* Pods-CEDRIS-CEDRISUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEDRIS-CEDRISUITests-resources.sh"; sourceTree = "<group>"; };
+		E7BB3652564EDAE8CD4C70C76A4C88EB /* GoogleMaps-m1-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-m1-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092937F0F8C320233A8786B7CE3D0BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AEABF459FD7FBE44717B4ADC7B38DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D1B3084F6B0671049E44FAC154E7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30E849C28EEF5BDD9A2297E0506AB5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4358F402BBCEEDEFBD02742D1DB604F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316A6C3779E2BD27D6380F22D3B579AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38589A83B27A475B76D7F82DB37F4454 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90C8BF8BCE50D5B2F483C44FE85840FB /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5344E0BCC7D638794270A3C6D070FBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10E5D1705C67C99D3B8890E3102B271 /* Pods-CEDRIS */,
+				2A1E9FDE490A9497DBC29E5DC508417D /* Pods-CEDRIS-CEDRISUITests */,
+				AC36F7EDD42DDB4E35883B7F66EA2EEB /* Pods-CEDRISTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66173FD19A3D2077634ED1CC2E5F415C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26551EA17CE4C420C2FBD06A8D3277AB /* GoogleMaps.xcframework */,
+				74EDC53788F5786CAD0A325E7BB6DE4C /* GoogleMapsCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E491CECE4E51414CBC6ACC103C9B273 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB3652564EDAE8CD4C70C76A4C88EB /* GoogleMaps-m1-xcframeworks.sh */,
+				A2AAB696355FEAFCC212873F665265F5 /* GoogleMaps-m1.debug.xcconfig */,
+				70A3EB5CEE6BE4E3124F0E23119BD74D /* GoogleMaps-m1.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps-m1";
+			sourceTree = "<group>";
+		};
+		9084FBB6EDD2F9B0E650BEA4A32FA961 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF62673E5918690BC04BB6C8B0A8A3B /* Pods-CEDRIS */,
+				C82FE98DA1B7CD709D0FF1F502F7D711 /* Pods-CEDRIS-CEDRISUITests */,
+				E85CA46E2EF3B298D6854C1560A090D8 /* Pods-CEDRISTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC0905B37166541A89386E05E8E24771 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				66173FD19A3D2077634ED1CC2E5F415C /* Frameworks */,
+				38589A83B27A475B76D7F82DB37F4454 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		AFF62673E5918690BC04BB6C8B0A8A3B /* Pods-CEDRIS */ = {
+			isa = PBXGroup;
+			children = (
+				86437072FBD24EC8EEBA086D3E4649F6 /* Pods-CEDRIS.modulemap */,
+				088C57F6513F8AA6FA71950D452DB3B0 /* Pods-CEDRIS-acknowledgements.markdown */,
+				69C38060ED6641852CAC7E5426C68FA4 /* Pods-CEDRIS-acknowledgements.plist */,
+				034D84D23EB2FDC1352BA7221FB9AA92 /* Pods-CEDRIS-dummy.m */,
+				06952EF577212691BD930069EFDBEF6F /* Pods-CEDRIS-Info.plist */,
+				463FF86DC858477CD8F07382CFA03FA4 /* Pods-CEDRIS-resources.sh */,
+				6448B84F5547854182940997CC19F01A /* Pods-CEDRIS-umbrella.h */,
+				D3EEF1CEDBEF2DEF50CDC1B860362EED /* Pods-CEDRIS.debug.xcconfig */,
+				D0C8C76B41DAF7C278C3FA39E10242D2 /* Pods-CEDRIS.release.xcconfig */,
+			);
+			name = "Pods-CEDRIS";
+			path = "Target Support Files/Pods-CEDRIS";
+			sourceTree = "<group>";
+		};
+		B4C284769AE90351061C9141B45699B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BF25D3CE4A3DAC8C7D576A1C9A531 /* GoogleMaps-m1 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C82FE98DA1B7CD709D0FF1F502F7D711 /* Pods-CEDRIS-CEDRISUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03DF1EF313D5ED37E367936ECF006178 /* Pods-CEDRIS-CEDRISUITests.modulemap */,
+				71675E9CFE3B91222DF6D7675E4DE7DE /* Pods-CEDRIS-CEDRISUITests-acknowledgements.markdown */,
+				D5FF6B3893D21F991B89908721972602 /* Pods-CEDRIS-CEDRISUITests-acknowledgements.plist */,
+				4DED71084ABB70EFA7581A83E47C1267 /* Pods-CEDRIS-CEDRISUITests-dummy.m */,
+				9AF51E715DEB88A8BDBCF78ECA10FF46 /* Pods-CEDRIS-CEDRISUITests-Info.plist */,
+				E767A3849168929683B259B0F7560FFF /* Pods-CEDRIS-CEDRISUITests-resources.sh */,
+				6D4AD05BD2D431A2224654AAB82FD78E /* Pods-CEDRIS-CEDRISUITests-umbrella.h */,
+				90A334F9E1E961F9787FFA0EF95CFEF9 /* Pods-CEDRIS-CEDRISUITests.debug.xcconfig */,
+				2799F887C6F340B108722564D69176CD /* Pods-CEDRIS-CEDRISUITests.release.xcconfig */,
+			);
+			name = "Pods-CEDRIS-CEDRISUITests";
+			path = "Target Support Files/Pods-CEDRIS-CEDRISUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B4C284769AE90351061C9141B45699B8 /* Pods */,
+				5344E0BCC7D638794270A3C6D070FBE1 /* Products */,
+				9084FBB6EDD2F9B0E650BEA4A32FA961 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E85CA46E2EF3B298D6854C1560A090D8 /* Pods-CEDRISTests */ = {
+			isa = PBXGroup;
+			children = (
+				B14E0A4E1AA2CB72E3D3BF345712195C /* Pods-CEDRISTests.modulemap */,
+				1A7DD5B8921504FFD1EA81AF1EF1CE98 /* Pods-CEDRISTests-acknowledgements.markdown */,
+				318F7AF7E6F4A2C39F0644A5EE178BCA /* Pods-CEDRISTests-acknowledgements.plist */,
+				0C6BC42983E5E8E397B0478FEAE87CDE /* Pods-CEDRISTests-dummy.m */,
+				1E1CCF1DA7C3A376922EDE182BCA3772 /* Pods-CEDRISTests-Info.plist */,
+				E76115A0C52F7F65E8C67B699CD2BBB6 /* Pods-CEDRISTests-umbrella.h */,
+				D6FA7EEF071CD4F77FFA88F5836057D4 /* Pods-CEDRISTests.debug.xcconfig */,
+				3A52CF36B882333A4189E6523FE187B9 /* Pods-CEDRISTests.release.xcconfig */,
+			);
+			name = "Pods-CEDRISTests";
+			path = "Target Support Files/Pods-CEDRISTests";
+			sourceTree = "<group>";
+		};
+		F9E50F2DF2DF962171713781ADB1D755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6086CE9EBF52320C4D4EDD8C16C7B165 /* GoogleMapsBase.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE1BF25D3CE4A3DAC8C7D576A1C9A531 /* GoogleMaps-m1 */ = {
+			isa = PBXGroup;
+			children = (
+				FE9BE2978F4461F2F98E9B40F1D562C9 /* Base */,
+				AC0905B37166541A89386E05E8E24771 /* Maps */,
+				6E491CECE4E51414CBC6ACC103C9B273 /* Support Files */,
+			);
+			name = "GoogleMaps-m1";
+			path = "GoogleMaps-m1";
+			sourceTree = "<group>";
+		};
+		FE9BE2978F4461F2F98E9B40F1D562C9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F9E50F2DF2DF962171713781ADB1D755 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76BF5B080F36FEC0FC197D34B24D6696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0BDAEE883C6DCD9C5B723E851A3CD7 /* Pods-CEDRISTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11B3BDF3C8E1B5F1945E89F17AB0F15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331FFEF3473ACF650E1108745DA2C961 /* Pods-CEDRIS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBDDE016EB4818EF1560D4B359CD022 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295EA714287D76C5537E9D0237BF81A /* Pods-CEDRIS-CEDRISUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04F3D4EACFE990C34E7FFC66BC1A25C5 /* Pods-CEDRIS-CEDRISUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E876A26D61527FF7121AB414B44354 /* Build configuration list for PBXNativeTarget "Pods-CEDRIS-CEDRISUITests" */;
+			buildPhases = (
+				FEBDDE016EB4818EF1560D4B359CD022 /* Headers */,
+				02E85DF78F1BAB09D1F962E37F92B191 /* Sources */,
+				28D1B3084F6B0671049E44FAC154E7C3 /* Frameworks */,
+				4E49A46B294D889D6C847926448E5581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074CD4966394E837639D7199724376C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CEDRIS-CEDRISUITests";
+			productName = Pods_CEDRIS_CEDRISUITests;
+			productReference = 2A1E9FDE490A9497DBC29E5DC508417D /* Pods-CEDRIS-CEDRISUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		284FF82D7A2C325251E8B8A1454D701D /* Pods-CEDRISTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4849535043DBE52FF20F0970169361 /* Build configuration list for PBXNativeTarget "Pods-CEDRISTests" */;
+			buildPhases = (
+				76BF5B080F36FEC0FC197D34B24D6696 /* Headers */,
+				AC09DF7155011FF577CC7877BFBBA9AA /* Sources */,
+				092937F0F8C320233A8786B7CE3D0BB4 /* Frameworks */,
+				AEADA227AFE23B3A1B5245BC859F040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707AEBBDF69450D703B7304707281D4E /* PBXTargetDependency */,
+			);
+			name = "Pods-CEDRISTests";
+			productName = Pods_CEDRISTests;
+			productReference = AC36F7EDD42DDB4E35883B7F66EA2EEB /* Pods-CEDRISTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E78FD2CF1A9262EFC2456F61BA7B6A2 /* Pods-CEDRIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EFF5CA10CCDBF4CAE3B1D838FF97D5 /* Build configuration list for PBXNativeTarget "Pods-CEDRIS" */;
+			buildPhases = (
+				D11B3BDF3C8E1B5F1945E89F17AB0F15 /* Headers */,
+				03AB9BFEE9F8C5B6E39578A4DB1F1FAA /* Sources */,
+				4358F402BBCEEDEFBD02742D1DB604F4 /* Frameworks */,
+				E78AEC8A081E6E5916A749CE49E58DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B69925DBBD08E4137F636ED116F73550 /* PBXTargetDependency */,
+			);
+			name = "Pods-CEDRIS";
+			productName = Pods_CEDRIS;
+			productReference = E10E5D1705C67C99D3B8890E3102B271 /* Pods-CEDRIS */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5344E0BCC7D638794270A3C6D070FBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B23FF238BCB0B6089FB455D0F09828 /* GoogleMaps-m1 */,
+				9E78FD2CF1A9262EFC2456F61BA7B6A2 /* Pods-CEDRIS */,
+				04F3D4EACFE990C34E7FFC66BC1A25C5 /* Pods-CEDRIS-CEDRISUITests */,
+				284FF82D7A2C325251E8B8A1454D701D /* Pods-CEDRISTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E49A46B294D889D6C847926448E5581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEADA227AFE23B3A1B5245BC859F040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78AEC8A081E6E5916A749CE49E58DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D70905B4CBE704B1CD75B936F2A0BF2 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps-m1/GoogleMaps-m1-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps-m1/GoogleMaps-m1-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMaps-m1/GoogleMaps-m1-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E85DF78F1BAB09D1F962E37F92B191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196760B3F1C86997F38B49579EF20AC3 /* Pods-CEDRIS-CEDRISUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AB9BFEE9F8C5B6E39578A4DB1F1FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E216CADC0BCEEF44EB02AE4C42153F6C /* Pods-CEDRIS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC09DF7155011FF577CC7877BFBBA9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F6C9C8BD0D184DE291C07A0FF75283 /* Pods-CEDRISTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074CD4966394E837639D7199724376C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleMaps-m1";
+			target = B9B23FF238BCB0B6089FB455D0F09828 /* GoogleMaps-m1 */;
+			targetProxy = 449FBF6349837F759748476AF14D98B3 /* PBXContainerItemProxy */;
+		};
+		707AEBBDF69450D703B7304707281D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CEDRIS";
+			target = 9E78FD2CF1A9262EFC2456F61BA7B6A2 /* Pods-CEDRIS */;
+			targetProxy = 65CB3A0B1087F28351376442C70B65F0 /* PBXContainerItemProxy */;
+		};
+		B69925DBBD08E4137F636ED116F73550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleMaps-m1";
+			target = B9B23FF238BCB0B6089FB455D0F09828 /* GoogleMaps-m1 */;
+			targetProxy = 350E4AC163594EE940749F21D3CB7C07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		009FECF05D54D01EC80555DA5DB4C89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C8C76B41DAF7C278C3FA39E10242D2 /* Pods-CEDRIS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEDRIS/Pods-CEDRIS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEDRIS/Pods-CEDRIS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18790738004736CD18AB630E780549CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FA7EEF071CD4F77FFA88F5836057D4 /* Pods-CEDRISTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEDRISTests/Pods-CEDRISTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEDRISTests/Pods-CEDRISTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47A4F557857DF6E51746E26264113CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2AAB696355FEAFCC212873F665265F5 /* GoogleMaps-m1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		857EB2FF3F4194B7CDEDCCD047B71CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A334F9E1E961F9787FFA0EF95CFEF9 /* Pods-CEDRIS-CEDRISUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEF45F4B5E29ABAEF0DEA97132694CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2799F887C6F340B108722564D69176CD /* Pods-CEDRIS-CEDRISUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEDRIS-CEDRISUITests/Pods-CEDRIS-CEDRISUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C72427081FBCE9BB04CE4018580C10E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EEF1CEDBEF2DEF50CDC1B860362EED /* Pods-CEDRIS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEDRIS/Pods-CEDRIS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEDRIS/Pods-CEDRIS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB4085A5781F469F42FA49B6B8267DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A3EB5CEE6BE4E3124F0E23119BD74D /* GoogleMaps-m1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E270CB1CD3321B3F7396FEB0648C7148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A52CF36B882333A4189E6523FE187B9 /* Pods-CEDRISTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEDRISTests/Pods-CEDRISTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEDRISTests/Pods-CEDRISTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E876A26D61527FF7121AB414B44354 /* Build configuration list for PBXNativeTarget "Pods-CEDRIS-CEDRISUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857EB2FF3F4194B7CDEDCCD047B71CB6 /* Debug */,
+				AEF45F4B5E29ABAEF0DEA97132694CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4849535043DBE52FF20F0970169361 /* Build configuration list for PBXNativeTarget "Pods-CEDRISTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18790738004736CD18AB630E780549CE /* Debug */,
+				E270CB1CD3321B3F7396FEB0648C7148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185140C3785787080DC904D7FF068E8 /* Build configuration list for PBXAggregateTarget "GoogleMaps-m1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A4F557857DF6E51746E26264113CB0 /* Debug */,
+				DB4085A5781F469F42FA49B6B8267DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EFF5CA10CCDBF4CAE3B1D838FF97D5 /* Build configuration list for PBXNativeTarget "Pods-CEDRIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72427081FBCE9BB04CE4018580C10E5 /* Debug */,
+				009FECF05D54D01EC80555DA5DB4C89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

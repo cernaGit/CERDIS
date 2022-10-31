@@ -1,0 +1,120 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "79l-Wx-Xfg"; */
+"79l-Wx-Xfg.text" = "Label";
+
+/* Class = "UILabel"; text = "Start"; ObjectID = "BV6-jb-z2h"; */
+"BV6-jb-z2h.text" = "Start";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D7g-HP-7Ab"; */
+"D7g-HP-7Ab.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JAf-M8-S3j"; */
+"JAf-M8-S3j.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Favourite tras"; ObjectID = "KJo-bG-c8T"; */
+"KJo-bG-c8T.title" = "Favourite tras";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KOe-XB-q0s"; */
+"KOe-XB-q0s.text" = "Label";
+
+/* Class = "UILabel"; text = "Start"; ObjectID = "M7z-rg-hEM"; */
+"M7z-rg-hEM.text" = "Start";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MjF-JI-YaT"; */
+"MjF-JI-YaT.text" = "Label";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "Mv0-kJ-QeL"; */
+"Mv0-kJ-QeL.text" = "Time";
+
+/* Class = "UILabel"; text = "Search history"; ObjectID = "O8o-Zj-CYR"; */
+"O8o-Zj-CYR.text" = "Search history";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Txl-lr-bZm"; */
+"Txl-lr-bZm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UQU-Ai-5ij"; */
+"UQU-Ai-5ij.text" = "Label";
+
+/* Class = "UILabel"; text = "Tady budou kontakty na společnost, telefonní čísla a e-maily"; ObjectID = "WpV-Z3-9Uq"; */
+"WpV-Z3-9Uq.text" = "Tady budou kontakty na společnost, telefonní čísla a e-maily";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Wqf-i6-P6t"; */
+"Wqf-i6-P6t.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Planning"; ObjectID = "WuV-RW-LeC"; */
+"WuV-RW-LeC.title" = "Planning";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZX5-bi-ukB"; */
+"ZX5-bi-ukB.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Stops"; ObjectID = "aZ2-tt-jGs"; */
+"aZ2-tt-jGs.title" = "Stops";
+
+/* Class = "UILabel"; text = "Start"; ObjectID = "clI-oP-AO1"; */
+"clI-oP-AO1.text" = "Start";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "eek-Z5-nWt"; */
+"eek-Z5-nWt.text" = "Destination";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "fHU-tv-SOA"; */
+"fHU-tv-SOA.text" = "Date";
+
+/* Class = "UITabBarItem"; title = "Info"; ObjectID = "gKK-to-EcR"; */
+"gKK-to-EcR.title" = "Info";
+
+/* Class = "UILabel"; text = "Dark mode"; ObjectID = "gOK-Rr-Zit"; */
+"gOK-Rr-Zit.text" = "Dark mode";
+
+/* Class = "UILabel"; text = "Contacts"; ObjectID = "gtF-Cn-nfW"; */
+"gtF-Cn-nfW.text" = "Contacts";
+
+/* Class = "UILabel"; text = "Name tras"; ObjectID = "hj0-Md-srY"; */
+"hj0-Md-srY.text" = "Name tras";
+
+/* Class = "UIButton"; normalTitle = " Search"; ObjectID = "jNe-cO-7ZZ"; */
+"jNe-cO-7ZZ.normalTitle" = " Search";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "k7a-WN-Dgq"; */
+"k7a-WN-Dgq.text" = "Label";
+
+/* Class = "UILabel"; text = "Name tras"; ObjectID = "kaX-Mi-em6"; */
+"kaX-Mi-em6.text" = "Name tras";
+
+/* Class = "UILabel"; text = "Ruito tras planner"; ObjectID = "kjM-DW-Jn5"; */
+"kjM-DW-Jn5.text" = "Ruito tras planner";
+
+/* Class = "UISwitch"; title = "darkModeOn"; ObjectID = "lhN-qJ-5pM"; */
+"lhN-qJ-5pM.title" = "darkModeOn";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "m6j-9I-CgN"; */
+"m6j-9I-CgN.title" = "Map";
+
+/* Class = "UILabel"; text = "Choose transport"; ObjectID = "mSJ-w4-u69"; */
+"mSJ-w4-u69.text" = "Choose transport";
+
+/* Class = "UITabBarItem"; title = "Favourite tras"; ObjectID = "mfd-ta-zxK"; */
+"mfd-ta-zxK.title" = "Favourite tras";
+
+/* Class = "UILabel"; text = "Version 1.0"; ObjectID = "nL8-A3-WDg"; */
+"nL8-A3-WDg.text" = "Version 1.0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pYG-ht-ABg"; */
+"pYG-ht-ABg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Planning tras"; ObjectID = "pZ1-wi-ErD"; */
+"pZ1-wi-ErD.text" = "Planning tras";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "pmZ-zV-fTP"; */
+"pmZ-zV-fTP.text" = "Destination";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "poU-f6-5xN"; */
+"poU-f6-5xN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tHy-qB-XrG"; */
+"tHy-qB-XrG.text" = "Label";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "vAL-cz-C2Q"; */
+"vAL-cz-C2Q.text" = "Destination";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zsb-Nj-lTh"; */
+"zsb-Nj-lTh.text" = "Label";

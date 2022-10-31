@@ -1,0 +1,31 @@
+//Planning tras
+"Planning tras" = "Planning tras";
+"Start" = "Start";
+"Destination" = "Destination";
+"Date" = "Date";
+"Time" = "Time";
+"Choose transport" = "Choose transport";
+"Search history" = "Search history";
+"Search" = "Search!";
+
+//SearchStop
+"Data is reloading.." = "Data is reloading..";
+
+//Info about aplication
+"version" = "Version 1.0";
+"dark_mode" = "Dark mode";
+"contacts" = "Contacts";
+"detail_contact" = "WebRock s.r.o.
+CIN: 09839259
+Address: Lidická 700/19, 602 00 Brno, Česká republika
+E-mail: info@rutio.eu
+
+Bank account: 359839259/2010 (Fio banka)
+IBAN: CZ53 2010 0000 0003 5983 9259
+BIC: FIOBCZPPXXX";
+
+//New favourite tras
+"name" = "Name";
+
+//Favourite tras
+"favourite_tras" = "Favourite tras";
